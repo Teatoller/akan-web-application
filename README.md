@@ -22,7 +22,7 @@
 6. `git checkout dev`
 
 # Link to live site
-[Ennis Dev-portfolio](https://teatoller.github.io/akan-web-application/index.html)
+[Akan Name web application](https://teatoller.github.io/akan-web-application/index.html)
 
 
 # Copyright and License information
