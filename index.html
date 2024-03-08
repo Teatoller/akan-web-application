@@ -1,12 +1,30 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan name</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <p>Hello</p>
-    
+    <form id="akanForm">
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <label for="gender">Select your gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <button type="button" onclick="calculateAkanName()">Calculate</button>
+        <p id="akanResult"></p>
+    </form>
+    <script>
+        function calculateAkanName() {
+            console.log("I have been clicked")
+        }
+    </script>
+
 </body>
+
 </html>
